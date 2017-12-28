@@ -1,14 +1,14 @@
 # Honeychord
 > An iOS musical instrument designed for learning chords.
 
-[![Swift Version][swift-image]][swift-url]
+[![Swift Version](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org)
 [![License][license-image]][license-url]
-[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
+[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)   
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 One to two paragraph statement about your product and what it does.
 
-![](header.png)
+![](banner.png)
 
 ## Features
 
