@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		23BD40B90E503FCFE65F5324 /* Pods_Honeychord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958720E476A9BDF7897BE4A9 /* Pods_Honeychord.framework */; };
+		93B9A4821FF59740008AEAEB /* InstrumentChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4811FF59740008AEAEB /* InstrumentChangeViewController.swift */; };
+		93B9A4841FF5975D008AEAEB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4831FF5975D008AEAEB /* SettingsViewController.swift */; };
+		93B9A4861FF59794008AEAEB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4851FF59794008AEAEB /* UIViewController+Extension.swift */; };
+		93B9A4881FF5982B008AEAEB /* MIDIInstrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4871FF5982B008AEAEB /* MIDIInstrument.swift */; };
+		93B9A48A1FF598D6008AEAEB /* MIDIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4891FF598D6008AEAEB /* MIDIController.swift */; };
+		93B9A48C1FF59A66008AEAEB /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A48B1FF59A66008AEAEB /* MusicModel.swift */; };
+		93B9A48E1FF59ACB008AEAEB /* HighlightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A48D1FF59ACB008AEAEB /* HighlightingViewController.swift */; };
+		93B9A4901FF59BCF008AEAEB /* KeyChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A48F1FF59BCF008AEAEB /* KeyChangeViewController.swift */; };
+		93B9A4921FF59BE7008AEAEB /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4911FF59BE7008AEAEB /* SidebarViewController.swift */; };
 		93E1794D1FF587E800FE9302 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1794C1FF587E800FE9302 /* Note.swift */; };
 		93E179511FF5886000FE9302 /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E179501FF5886000FE9302 /* Chord.swift */; };
 		93E179531FF588CF00FE9302 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E179521FF588CF00FE9302 /* Scale.swift */; };
@@ -45,6 +54,15 @@
 		3F8A559EF9836EA3AA6B12E7 /* Pods_HoneychordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoneychordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		609FCAB9A2A8F348A6FF1C9A /* Pods-HoneychordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneychordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoneychordTests/Pods-HoneychordTests.release.xcconfig"; sourceTree = "<group>"; };
 		6640149D4E3FE1AEEE3E7606 /* Pods-Honeychord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Honeychord.release.xcconfig"; path = "Pods/Target Support Files/Pods-Honeychord/Pods-Honeychord.release.xcconfig"; sourceTree = "<group>"; };
+		93B9A4811FF59740008AEAEB /* InstrumentChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentChangeViewController.swift; sourceTree = "<group>"; };
+		93B9A4831FF5975D008AEAEB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		93B9A4851FF59794008AEAEB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		93B9A4871FF5982B008AEAEB /* MIDIInstrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIInstrument.swift; sourceTree = "<group>"; };
+		93B9A4891FF598D6008AEAEB /* MIDIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIController.swift; sourceTree = "<group>"; };
+		93B9A48B1FF59A66008AEAEB /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		93B9A48D1FF59ACB008AEAEB /* HighlightingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightingViewController.swift; sourceTree = "<group>"; };
+		93B9A48F1FF59BCF008AEAEB /* KeyChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChangeViewController.swift; sourceTree = "<group>"; };
+		93B9A4911FF59BE7008AEAEB /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
 		93E1794C1FF587E800FE9302 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		93E179501FF5886000FE9302 /* Chord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
 		93E179521FF588CF00FE9302 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
@@ -99,6 +117,18 @@
 				609FCAB9A2A8F348A6FF1C9A /* Pods-HoneychordTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		93B9A4801FF59727008AEAEB /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+				93B9A4811FF59740008AEAEB /* InstrumentChangeViewController.swift */,
+				93B9A4831FF5975D008AEAEB /* SettingsViewController.swift */,
+				93B9A48D1FF59ACB008AEAEB /* HighlightingViewController.swift */,
+				93B9A48F1FF59BCF008AEAEB /* KeyChangeViewController.swift */,
+				93B9A4911FF59BE7008AEAEB /* SidebarViewController.swift */,
+			);
+			path = Popovers;
 			sourceTree = "<group>";
 		};
 		93F353241FF57575002F3235 = {
@@ -187,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				93F353571FF578FD002F3235 /* UIColor+Extension.swift */,
+				93B9A4851FF59794008AEAEB /* UIViewController+Extension.swift */,
 			);
 			path = "UIKit Extensions";
 			sourceTree = "<group>";
@@ -204,6 +235,7 @@
 			children = (
 				93F3539A1FF57B62002F3235 /* UtilityServices.swift */,
 				93F3539E1FF57DAC002F3235 /* AppServices.swift */,
+				93B9A4891FF598D6008AEAEB /* MIDIController.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -223,6 +255,8 @@
 				93E179521FF588CF00FE9302 /* Scale.swift */,
 				93E179541FF5894600FE9302 /* ChordProgression.swift */,
 				93E179561FF589AB00FE9302 /* MIDIControl.swift */,
+				93B9A4871FF5982B008AEAEB /* MIDIInstrument.swift */,
+				93B9A48B1FF59A66008AEAEB /* MusicModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -239,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				93F353A01FF57E5D002F3235 /* RootViewController.swift */,
+				93B9A4801FF59727008AEAEB /* Popovers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -466,16 +501,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B9A48A1FF598D6008AEAEB /* MIDIController.swift in Sources */,
+				93B9A4881FF5982B008AEAEB /* MIDIInstrument.swift in Sources */,
+				93B9A4861FF59794008AEAEB /* UIViewController+Extension.swift in Sources */,
+				93B9A48C1FF59A66008AEAEB /* MusicModel.swift in Sources */,
 				93F353581FF578FD002F3235 /* UIColor+Extension.swift in Sources */,
 				93F3539D1FF57BB6002F3235 /* Logger.swift in Sources */,
 				93F3539F1FF57DAC002F3235 /* AppServices.swift in Sources */,
+				93B9A4821FF59740008AEAEB /* InstrumentChangeViewController.swift in Sources */,
+				93B9A4901FF59BCF008AEAEB /* KeyChangeViewController.swift in Sources */,
+				93B9A4921FF59BE7008AEAEB /* SidebarViewController.swift in Sources */,
 				93F353311FF57575002F3235 /* AppDelegate.swift in Sources */,
 				93E179551FF5894600FE9302 /* ChordProgression.swift in Sources */,
 				93F353531FF577E1002F3235 /* Constants.swift in Sources */,
 				93E179571FF589AB00FE9302 /* MIDIControl.swift in Sources */,
+				93B9A4841FF5975D008AEAEB /* SettingsViewController.swift in Sources */,
 				93E1794D1FF587E800FE9302 /* Note.swift in Sources */,
 				93E179511FF5886000FE9302 /* Chord.swift in Sources */,
 				93E179531FF588CF00FE9302 /* Scale.swift in Sources */,
+				93B9A48E1FF59ACB008AEAEB /* HighlightingViewController.swift in Sources */,
 				93F3539B1FF57B62002F3235 /* UtilityServices.swift in Sources */,
 				93F353A11FF57E5D002F3235 /* RootViewController.swift in Sources */,
 				93F3535C1FF5794D002F3235 /* Bundle+Extension.swift in Sources */,
