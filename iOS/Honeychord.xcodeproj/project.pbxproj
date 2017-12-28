@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		23BD40B90E503FCFE65F5324 /* Pods_Honeychord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958720E476A9BDF7897BE4A9 /* Pods_Honeychord.framework */; };
+		93E1794D1FF587E800FE9302 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1794C1FF587E800FE9302 /* Note.swift */; };
+		93E179511FF5886000FE9302 /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E179501FF5886000FE9302 /* Chord.swift */; };
+		93E179531FF588CF00FE9302 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E179521FF588CF00FE9302 /* Scale.swift */; };
+		93E179551FF5894600FE9302 /* ChordProgression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E179541FF5894600FE9302 /* ChordProgression.swift */; };
+		93E179571FF589AB00FE9302 /* MIDIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E179561FF589AB00FE9302 /* MIDIControl.swift */; };
 		93F353311FF57575002F3235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F353301FF57575002F3235 /* AppDelegate.swift */; };
 		93F353361FF57575002F3235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F353341FF57575002F3235 /* Main.storyboard */; };
 		93F353381FF57575002F3235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F353371FF57575002F3235 /* Assets.xcassets */; };
@@ -40,6 +45,11 @@
 		3F8A559EF9836EA3AA6B12E7 /* Pods_HoneychordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoneychordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		609FCAB9A2A8F348A6FF1C9A /* Pods-HoneychordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneychordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoneychordTests/Pods-HoneychordTests.release.xcconfig"; sourceTree = "<group>"; };
 		6640149D4E3FE1AEEE3E7606 /* Pods-Honeychord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Honeychord.release.xcconfig"; path = "Pods/Target Support Files/Pods-Honeychord/Pods-Honeychord.release.xcconfig"; sourceTree = "<group>"; };
+		93E1794C1FF587E800FE9302 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		93E179501FF5886000FE9302 /* Chord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		93E179521FF588CF00FE9302 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		93E179541FF5894600FE9302 /* ChordProgression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordProgression.swift; sourceTree = "<group>"; };
+		93E179561FF589AB00FE9302 /* MIDIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIControl.swift; sourceTree = "<group>"; };
 		93F3532D1FF57575002F3235 /* Honeychord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeychord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F353301FF57575002F3235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93F353351FF57575002F3235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -208,6 +218,11 @@
 		93F353611FF5799A002F3235 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				93E1794C1FF587E800FE9302 /* Note.swift */,
+				93E179501FF5886000FE9302 /* Chord.swift */,
+				93E179521FF588CF00FE9302 /* Scale.swift */,
+				93E179541FF5894600FE9302 /* ChordProgression.swift */,
+				93E179561FF589AB00FE9302 /* MIDIControl.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -455,7 +470,12 @@
 				93F3539D1FF57BB6002F3235 /* Logger.swift in Sources */,
 				93F3539F1FF57DAC002F3235 /* AppServices.swift in Sources */,
 				93F353311FF57575002F3235 /* AppDelegate.swift in Sources */,
+				93E179551FF5894600FE9302 /* ChordProgression.swift in Sources */,
 				93F353531FF577E1002F3235 /* Constants.swift in Sources */,
+				93E179571FF589AB00FE9302 /* MIDIControl.swift in Sources */,
+				93E1794D1FF587E800FE9302 /* Note.swift in Sources */,
+				93E179511FF5886000FE9302 /* Chord.swift in Sources */,
+				93E179531FF588CF00FE9302 /* Scale.swift in Sources */,
 				93F3539B1FF57B62002F3235 /* UtilityServices.swift in Sources */,
 				93F353A11FF57E5D002F3235 /* RootViewController.swift in Sources */,
 				93F3535C1FF5794D002F3235 /* Bundle+Extension.swift in Sources */,
