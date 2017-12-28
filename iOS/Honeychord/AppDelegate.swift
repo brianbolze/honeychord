@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let utilities = UtilityServices()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        DebugLogger.logDebug("Hello World!")
         
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! RootViewController
         controller.services = AppServices()
