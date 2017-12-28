@@ -1,0 +1,15 @@
+swift_version = "4"
+platform :ios, '9.0'
+use_frameworks!
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'Honeychord' do
+	
+end
+
+target 'HoneychordTests' do
+	pod 'Quick', '~> 1.1'
+    pod 'Nimble', '~> 7.0'
+end
