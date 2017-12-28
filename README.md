@@ -12,7 +12,7 @@ One to two paragraph statement about your product and what it does.
 
 ## Features
 
-- [x] **[Unique hexagon note layout]**(https://en.wikipedia.org/wiki/Isomorphic_keyboard) for easy, one-touch chords.
+- [x] **[Unique hexagon note layout](https://en.wikipedia.org/wiki/Isomorphic_keyboard)** for easy, one-touch chords.
 - [x] **Awesome sounds** - Four high-quality built in MIDI instruments - Grand Piano, Electric Piano, Organ, and Synthesizer.
 - [x] **Awesome effects** - Control panel of effects including modulation, pitch bend, and more. 
 - [x] **MIDI Compatible** - Send MIDI messages to other apps running in the background, like Garageband.
