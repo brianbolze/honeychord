@@ -1,0 +1,7 @@
+# The AUTHORS file lists the copyright holders; this file
+# lists people.
+#
+# Names should be added to this file as:
+#     Name <email address>
+
+Brian Bolze <brianbolze@gmail.com>
