@@ -12,11 +12,11 @@ One to two paragraph statement about your product and what it does.
 
 ## Features
 
-- [x] Feature 1
-- [x] Feature 2
-- [x] Feature 3
-- [x] Feature 4
-- [x] Feature 5
+- [x] **[Unique hexagon note layout]**(https://en.wikipedia.org/wiki/Isomorphic_keyboard) for easy, one-touch chords.
+- [x] **Awesome sounds** - Four high-quality built in MIDI instruments - Grand Piano, Electric Piano, Organ, and Synthesizer.
+- [x] **Awesome effects** - Control panel of effects including modulation, pitch bend, and more. 
+- [x] **MIDI Compatible** - Send MIDI messages to other apps running in the background, like Garageband.
+- [x] **Gyroscope** integration to tilt and twist around for more unique sounds.
 
 ## Requirements
 
@@ -25,7 +25,15 @@ One to two paragraph statement about your product and what it does.
 - Swift 4
 
 ## Installation
-Clone
+Clone this repository.
+```shell
+$ git clone https://github.com/brianbolze/honeychord
+```
+
+Install external dependencies (via Cocoapods).
+```shell
+$ pod install
+```
 
 ## Contribute
 
