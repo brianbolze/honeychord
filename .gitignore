@@ -7,8 +7,8 @@ build/
 DerivedData/
 culprits.txt
 
-# Uncomment to exclude downloaded libraries
-# Pods/
+# Comment out to include downloaded libraries
+Pods/
 
 ## Various settings
 *.pbxuser
