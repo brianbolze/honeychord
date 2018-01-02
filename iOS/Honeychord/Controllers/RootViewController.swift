@@ -33,8 +33,8 @@ class RootViewController: UIViewController, MidiHandler, SettingsChangeHandler, 
     private weak var gridVC : GridViewController?
     private var midiBus : MIDIBusViewController?
     
-    private let sideBarExpandImageName = "side-bar-expand-button.png"
-    private let sideBarCollapseImageName = "side-bar-collapse-button.png"
+    private let sideBarExpandImageName = "side-bar-expand"
+    private let sideBarCollapseImageName = "side-bar-collapse"
     
     @IBOutlet weak var volumeSlider: DraggableHorizontalSlider! {
         didSet {
@@ -189,6 +189,8 @@ class RootViewController: UIViewController, MidiHandler, SettingsChangeHandler, 
             }
         }
     }
+    
+    
     
     @IBAction func highlightingChange(sender: TripleSwitchButton) {
         switch sender.currentState {

@@ -15,22 +15,22 @@ class DraggableImageView : UIImageView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         isUserInteractionEnabled = true
-        addGestureRecognizer(UIPanGestureRecognizer(target: self, action: "handlePan:"))
+        addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(handlePan)))
     }
     
     override init(image: UIImage!) {
         super.init(image: image)
         isUserInteractionEnabled = true
-        addGestureRecognizer(UIPanGestureRecognizer(target: self, action: "handlePan:"))
+        addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(handlePan)))
     }
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
         isUserInteractionEnabled = true
-        addGestureRecognizer(UIPanGestureRecognizer(target: self, action: "handlePan:"))
+        addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(handlePan)))
     }
     
-    func handlePan(recognizer : UIPanGestureRecognizer) {
+    @objc func handlePan(recognizer : UIPanGestureRecognizer) {
         switch recognizer.state {
         case .began:
             let locationInView = recognizer.location(in: superview)
