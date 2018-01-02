@@ -35,7 +35,9 @@ $ pod install
 
 ## Contribute
 
-We would love you for the contribution to **Honeychord**, check the ``LICENSE`` and ``CONTRIBUTING`` file for more info.
+I no longer have time to spend on this project, but I have hundreds of users still contacting me for feature requests and letting me know how much they love it, so I want to keep this alive! For that reason, I've decided to open-source this project. I'll reserve the rights to distribute this to the app store (currently live on the Apple App Store for iPad-only), but feel free to submit a pull request!
+
+Check the ``LICENSE`` and ``CONTRIBUTING`` file for more info.
 
 ## Meta
 
