@@ -27,6 +27,7 @@
 		9378BB351FFC07260007957D /* GridScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB341FFC07260007957D /* GridScanner.swift */; };
 		9378BB371FFC0BC10007957D /* GridHighlighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB361FFC0BC10007957D /* GridHighlighting.swift */; };
 		9378BB391FFC0CE70007957D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB381FFC0CE70007957D /* Array+Extension.swift */; };
+		9378BB3B1FFC10FB0007957D /* MotionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB3A1FFC10FB0007957D /* MotionHandler.swift */; };
 		93B9A4821FF59740008AEAEB /* InstrumentChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4811FF59740008AEAEB /* InstrumentChangeViewController.swift */; };
 		93B9A4841FF5975D008AEAEB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4831FF5975D008AEAEB /* SettingsViewController.swift */; };
 		93B9A4861FF59794008AEAEB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4851FF59794008AEAEB /* UIViewController+Extension.swift */; };
@@ -92,6 +93,7 @@
 		9378BB341FFC07260007957D /* GridScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridScanner.swift; sourceTree = "<group>"; };
 		9378BB361FFC0BC10007957D /* GridHighlighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridHighlighting.swift; sourceTree = "<group>"; };
 		9378BB381FFC0CE70007957D /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		9378BB3A1FFC10FB0007957D /* MotionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionHandler.swift; sourceTree = "<group>"; };
 		93B9A4811FF59740008AEAEB /* InstrumentChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentChangeViewController.swift; sourceTree = "<group>"; };
 		93B9A4831FF5975D008AEAEB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		93B9A4851FF59794008AEAEB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 				93F3539E1FF57DAC002F3235 /* AppServices.swift */,
 				93B9A4891FF598D6008AEAEB /* MIDIController.swift */,
 				9378BB341FFC07260007957D /* GridScanner.swift */,
+				9378BB3A1FFC10FB0007957D /* MotionHandler.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9378BB3B1FFC10FB0007957D /* MotionHandler.swift in Sources */,
 				9378BB171FFBFD850007957D /* ModulatorKnob.swift in Sources */,
 				9378BB151FFBF1810007957D /* DraggableHorizontalSlider.swift in Sources */,
 				9378BB131FFBF15C0007957D /* CustomSlider.swift in Sources */,
