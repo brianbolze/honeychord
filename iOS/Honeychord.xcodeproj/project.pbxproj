@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		23BD40B90E503FCFE65F5324 /* Pods_Honeychord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958720E476A9BDF7897BE4A9 /* Pods_Honeychord.framework */; };
+		9378BB131FFBF15C0007957D /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB121FFBF15C0007957D /* CustomSlider.swift */; };
+		9378BB151FFBF1810007957D /* DraggableHorizontalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB141FFBF1810007957D /* DraggableHorizontalSlider.swift */; };
+		9378BB171FFBFD850007957D /* ModulatorKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB161FFBFD850007957D /* ModulatorKnob.swift */; };
+		9378BB191FFBFE3C0007957D /* PitchKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB181FFBFE3C0007957D /* PitchKnob.swift */; };
+		9378BB1B1FFC00300007957D /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB1A1FFC00300007957D /* DraggableImageView.swift */; };
+		9378BB1F1FFC00840007957D /* VerticallyDraggableMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB1E1FFC00840007957D /* VerticallyDraggableMenu.swift */; };
+		9378BB211FFC01910007957D /* SwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB201FFC01910007957D /* SwitchButton.swift */; };
+		9378BB231FFC01A40007957D /* TripleSwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB221FFC01A40007957D /* TripleSwitchButton.swift */; };
+		9378BB251FFC02430007957D /* GlissandoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB241FFC02430007957D /* GlissandoButton.swift */; };
+		9378BB271FFC02660007957D /* ButtonFromBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB261FFC02660007957D /* ButtonFromBezierPath.swift */; };
+		9378BB291FFC03600007957D /* UIBezierPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB281FFC03600007957D /* UIBezierPath+Extension.swift */; };
+		9378BB2B1FFC05E70007957D /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB2A1FFC05E70007957D /* GridViewController.swift */; };
+		9378BB2D1FFC06220007957D /* MIDIControlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB2C1FFC06220007957D /* MIDIControlTableViewController.swift */; };
+		9378BB2F1FFC063B0007957D /* MIDIBusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB2E1FFC063B0007957D /* MIDIBusViewController.swift */; };
+		9378BB311FFC069E0007957D /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB301FFC069E0007957D /* GridView.swift */; };
+		9378BB331FFC06BE0007957D /* HexButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB321FFC06BE0007957D /* HexButton.swift */; };
+		9378BB351FFC07260007957D /* GridScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB341FFC07260007957D /* GridScanner.swift */; };
+		9378BB371FFC0BC10007957D /* GridHighlighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB361FFC0BC10007957D /* GridHighlighting.swift */; };
+		9378BB391FFC0CE70007957D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378BB381FFC0CE70007957D /* Array+Extension.swift */; };
 		93B9A4821FF59740008AEAEB /* InstrumentChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4811FF59740008AEAEB /* InstrumentChangeViewController.swift */; };
 		93B9A4841FF5975D008AEAEB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4831FF5975D008AEAEB /* SettingsViewController.swift */; };
 		93B9A4861FF59794008AEAEB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9A4851FF59794008AEAEB /* UIViewController+Extension.swift */; };
@@ -54,6 +73,25 @@
 		3F8A559EF9836EA3AA6B12E7 /* Pods_HoneychordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoneychordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		609FCAB9A2A8F348A6FF1C9A /* Pods-HoneychordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneychordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoneychordTests/Pods-HoneychordTests.release.xcconfig"; sourceTree = "<group>"; };
 		6640149D4E3FE1AEEE3E7606 /* Pods-Honeychord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Honeychord.release.xcconfig"; path = "Pods/Target Support Files/Pods-Honeychord/Pods-Honeychord.release.xcconfig"; sourceTree = "<group>"; };
+		9378BB121FFBF15C0007957D /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		9378BB141FFBF1810007957D /* DraggableHorizontalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableHorizontalSlider.swift; sourceTree = "<group>"; };
+		9378BB161FFBFD850007957D /* ModulatorKnob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulatorKnob.swift; sourceTree = "<group>"; };
+		9378BB181FFBFE3C0007957D /* PitchKnob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchKnob.swift; sourceTree = "<group>"; };
+		9378BB1A1FFC00300007957D /* DraggableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		9378BB1E1FFC00840007957D /* VerticallyDraggableMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticallyDraggableMenu.swift; sourceTree = "<group>"; };
+		9378BB201FFC01910007957D /* SwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchButton.swift; sourceTree = "<group>"; };
+		9378BB221FFC01A40007957D /* TripleSwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleSwitchButton.swift; sourceTree = "<group>"; };
+		9378BB241FFC02430007957D /* GlissandoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlissandoButton.swift; sourceTree = "<group>"; };
+		9378BB261FFC02660007957D /* ButtonFromBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFromBezierPath.swift; sourceTree = "<group>"; };
+		9378BB281FFC03600007957D /* UIBezierPath+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Extension.swift"; sourceTree = "<group>"; };
+		9378BB2A1FFC05E70007957D /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		9378BB2C1FFC06220007957D /* MIDIControlTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIControlTableViewController.swift; sourceTree = "<group>"; };
+		9378BB2E1FFC063B0007957D /* MIDIBusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIBusViewController.swift; sourceTree = "<group>"; };
+		9378BB301FFC069E0007957D /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		9378BB321FFC06BE0007957D /* HexButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexButton.swift; sourceTree = "<group>"; };
+		9378BB341FFC07260007957D /* GridScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridScanner.swift; sourceTree = "<group>"; };
+		9378BB361FFC0BC10007957D /* GridHighlighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridHighlighting.swift; sourceTree = "<group>"; };
+		9378BB381FFC0CE70007957D /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		93B9A4811FF59740008AEAEB /* InstrumentChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentChangeViewController.swift; sourceTree = "<group>"; };
 		93B9A4831FF5975D008AEAEB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		93B9A4851FF59794008AEAEB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
@@ -218,6 +256,7 @@
 			children = (
 				93F353571FF578FD002F3235 /* UIColor+Extension.swift */,
 				93B9A4851FF59794008AEAEB /* UIViewController+Extension.swift */,
+				9378BB281FFC03600007957D /* UIBezierPath+Extension.swift */,
 			);
 			path = "UIKit Extensions";
 			sourceTree = "<group>";
@@ -226,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				93F3535B1FF5794D002F3235 /* Bundle+Extension.swift */,
+				9378BB381FFC0CE70007957D /* Array+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -236,6 +276,7 @@
 				93F3539A1FF57B62002F3235 /* UtilityServices.swift */,
 				93F3539E1FF57DAC002F3235 /* AppServices.swift */,
 				93B9A4891FF598D6008AEAEB /* MIDIController.swift */,
+				9378BB341FFC07260007957D /* GridScanner.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -243,6 +284,16 @@
 		93F353601FF57994002F3235 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9378BB301FFC069E0007957D /* GridView.swift */,
+				9378BB321FFC06BE0007957D /* HexButton.swift */,
+				9378BB121FFBF15C0007957D /* CustomSlider.swift */,
+				9378BB141FFBF1810007957D /* DraggableHorizontalSlider.swift */,
+				9378BB161FFBFD850007957D /* ModulatorKnob.swift */,
+				9378BB181FFBFE3C0007957D /* PitchKnob.swift */,
+				9378BB1A1FFC00300007957D /* DraggableImageView.swift */,
+				9378BB1E1FFC00840007957D /* VerticallyDraggableMenu.swift */,
+				9378BB201FFC01910007957D /* SwitchButton.swift */,
+				9378BB221FFC01A40007957D /* TripleSwitchButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -257,6 +308,9 @@
 				93E179561FF589AB00FE9302 /* MIDIControl.swift */,
 				93B9A4871FF5982B008AEAEB /* MIDIInstrument.swift */,
 				93B9A48B1FF59A66008AEAEB /* MusicModel.swift */,
+				9378BB241FFC02430007957D /* GlissandoButton.swift */,
+				9378BB261FFC02660007957D /* ButtonFromBezierPath.swift */,
+				9378BB361FFC0BC10007957D /* GridHighlighting.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,6 +327,9 @@
 			isa = PBXGroup;
 			children = (
 				93F353A01FF57E5D002F3235 /* RootViewController.swift */,
+				9378BB2A1FFC05E70007957D /* GridViewController.swift */,
+				9378BB2E1FFC063B0007957D /* MIDIBusViewController.swift */,
+				9378BB2C1FFC06220007957D /* MIDIControlTableViewController.swift */,
 				93B9A4801FF59727008AEAEB /* Popovers */,
 			);
 			path = Controllers;
@@ -501,25 +558,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9378BB171FFBFD850007957D /* ModulatorKnob.swift in Sources */,
+				9378BB151FFBF1810007957D /* DraggableHorizontalSlider.swift in Sources */,
+				9378BB131FFBF15C0007957D /* CustomSlider.swift in Sources */,
+				9378BB331FFC06BE0007957D /* HexButton.swift in Sources */,
 				93B9A48A1FF598D6008AEAEB /* MIDIController.swift in Sources */,
+				9378BB2B1FFC05E70007957D /* GridViewController.swift in Sources */,
 				93B9A4881FF5982B008AEAEB /* MIDIInstrument.swift in Sources */,
 				93B9A4861FF59794008AEAEB /* UIViewController+Extension.swift in Sources */,
 				93B9A48C1FF59A66008AEAEB /* MusicModel.swift in Sources */,
 				93F353581FF578FD002F3235 /* UIColor+Extension.swift in Sources */,
+				9378BB191FFBFE3C0007957D /* PitchKnob.swift in Sources */,
 				93F3539D1FF57BB6002F3235 /* Logger.swift in Sources */,
 				93F3539F1FF57DAC002F3235 /* AppServices.swift in Sources */,
+				9378BB371FFC0BC10007957D /* GridHighlighting.swift in Sources */,
 				93B9A4821FF59740008AEAEB /* InstrumentChangeViewController.swift in Sources */,
+				9378BB211FFC01910007957D /* SwitchButton.swift in Sources */,
+				9378BB2F1FFC063B0007957D /* MIDIBusViewController.swift in Sources */,
+				9378BB1F1FFC00840007957D /* VerticallyDraggableMenu.swift in Sources */,
 				93B9A4901FF59BCF008AEAEB /* KeyChangeViewController.swift in Sources */,
 				93B9A4921FF59BE7008AEAEB /* SidebarViewController.swift in Sources */,
 				93F353311FF57575002F3235 /* AppDelegate.swift in Sources */,
+				9378BB2D1FFC06220007957D /* MIDIControlTableViewController.swift in Sources */,
 				93E179551FF5894600FE9302 /* ChordProgression.swift in Sources */,
+				9378BB291FFC03600007957D /* UIBezierPath+Extension.swift in Sources */,
 				93F353531FF577E1002F3235 /* Constants.swift in Sources */,
+				9378BB351FFC07260007957D /* GridScanner.swift in Sources */,
+				9378BB271FFC02660007957D /* ButtonFromBezierPath.swift in Sources */,
 				93E179571FF589AB00FE9302 /* MIDIControl.swift in Sources */,
 				93B9A4841FF5975D008AEAEB /* SettingsViewController.swift in Sources */,
+				9378BB251FFC02430007957D /* GlissandoButton.swift in Sources */,
+				9378BB1B1FFC00300007957D /* DraggableImageView.swift in Sources */,
 				93E1794D1FF587E800FE9302 /* Note.swift in Sources */,
 				93E179511FF5886000FE9302 /* Chord.swift in Sources */,
 				93E179531FF588CF00FE9302 /* Scale.swift in Sources */,
+				9378BB231FFC01A40007957D /* TripleSwitchButton.swift in Sources */,
 				93B9A48E1FF59ACB008AEAEB /* HighlightingViewController.swift in Sources */,
+				9378BB311FFC069E0007957D /* GridView.swift in Sources */,
+				9378BB391FFC0CE70007957D /* Array+Extension.swift in Sources */,
 				93F3539B1FF57B62002F3235 /* UtilityServices.swift in Sources */,
 				93F353A11FF57E5D002F3235 /* RootViewController.swift in Sources */,
 				93F3535C1FF5794D002F3235 /* Bundle+Extension.swift in Sources */,

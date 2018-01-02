@@ -8,6 +8,22 @@
 
 import UIKit
 
+protocol MidiHandler {
+    func noteOn(note : Note)
+    func noteOn(note : Note, velocity : Int)
+    func noteOff(note : Note)
+    func aftertouch(note : Note, value : Int)
+    func pitchBend(value : Int, channel : Int)
+    func ctrlChange(value : Int, ctrl : Int, channel : Int)
+    func volumeChange(value : Int)
+    func isChordTone(note : Note) -> Bool
+    func motionToggle(on : Bool)
+    func zeroX()
+    func zeroY()
+    func zeroZ()
+}
+
+
 class RootViewController: UIViewController {
     
     var services: AppServices!
@@ -22,7 +38,7 @@ class RootViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        titleLabel.text = services.appName
+        // titleLabel.text = services.appName
     }
 
 }
